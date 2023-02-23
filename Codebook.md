@@ -21,7 +21,7 @@ There are 66 columns of readings. These include only the mean `mean()` and stand
 
 >The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.  
 
-The 66 column names are:\
+The 66 column names are:  
 1. tBodyAcc_mean_X  
 2. tBodyAcc_mean_Y  
 3. tBodyAcc_mean_Z  
@@ -102,7 +102,7 @@ Subject and activity are as described above.
 ### Sensor signals 
 The 66 signals, as described above, are averaged over both subject and activity.  
 
-Column names are\
+Column names are  
 1. mean(tBodyAcc_mean_X)  
 2. mean(tBodyAcc_mean_Y)  
 3. mean(tBodyAcc_mean_Z)  
